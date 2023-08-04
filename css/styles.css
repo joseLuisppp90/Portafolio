@@ -1,0 +1,136 @@
+
+/* perfil foto */
+.perfilfoto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+/* estilo narvas */
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #2b0c0c;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid red;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid red;
+}
+/* fin de narvar estilo */
+
+/* estilos de las redes sociales  */
+#mySidenav a {
+  position:absolute; /* Position them relative to the browser window */
+  left: -80px; /* Position them outside of the screen */
+  transition: 0.1s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 100px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 5px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 10px 10px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#about {
+  top: 180px;
+  background-color: #0f0f0f;
+}
+
+#blog {
+  top: 220px;
+  background-color: #0d1822; /* Blue */
+}
+
+#projects {
+  top: 260px;
+  background-color: #1a0503; /* Red */
+}
+
+#contact {
+  top: 300px;
+  background-color: #250b0b /* Light Black */
+}
+
+
+/* Contacto */
+.containerContacto{
+  background-color: #7e7ec7;
+  width: 380px;
+  height: 576px;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 30px;
+  text-align: center;
+  
+}
+.containerOpinion{
+  background-color: #EDEDEF;
+  width: 610px;
+  height: 576px;
+  display: flex;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 30px;
+  flex-direction: column;  
+  text-align: center;
+}
+
+
+button{
+  background-color: #e8cace;
+  border-radius: 10px;
+  border-color:#917578 ;
+  font-family: 'Montserrat', sans-serif;
+  color:#EDEDEF;
+  padding: 10px 50px;
+  margin: 10px;   
+}
+svg{
+  display: flex;
+}
+
+.pCards{
+  text-align: left;
+  padding-right: 3em;
+}
+
+/* FORMULARIO ADMI */
+
+.containerOpinionAdmi{
+  background-color: #EDEDEF;
+  align-items: center;
+  width: 610px;
+  height: 676px;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.btnImg{
+  background-color: #A9C3B8;
+  border-color:#A9C3B8 ;
+  color: black;
+}
