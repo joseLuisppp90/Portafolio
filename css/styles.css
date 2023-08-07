@@ -53,24 +53,27 @@
 }
 
 /* The about link: 20px from the top with a green background */
-#about {
+#face {
+  color: #020228; font-size: 50px;
   top: 180px;
-  background-color: #0f0f0f;
+  background-color: #3b5998;
+  
+
 }
 
-#blog {
+#github {
   top: 220px;
-  background-color: #0d1822; /* Blue */
+  background-color: #171515; /* Blue */
 }
 
-#projects {
+#linkdln {
   top: 260px;
-  background-color: #1a0503; /* Red */
+  background-color: #0e76a8 ; /* Red */
 }
 
 #contact {
   top: 300px;
-  background-color: #250b0b /* Light Black */
+  background-color: #db4a39 /* CORREO*/
 }
 
 
