@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Contacto</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -19,7 +19,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
     <!-- Link logo pestaña -->
     <link rel="shortcut icon" href="/src/img/Imagotipo.png"> </head>
-  <body>
+  <body class="contene">
 
     <!-- narvar nuevo -->
 
@@ -27,12 +27,15 @@
         <ul class="nav justify-content-center">
         <a href="#home" class="active">LuiSoto</a>
         <a href="#acerca">  Acerca de mi </a>
+        <a href="#experiencia"> Experiencia</a>
         <a href="#contactame"> Contactame</a>
         </ul>
       </div>
     
     <!--fin narvar -->
-
+    <main>
+      
+      
     <!-- cuadros escodndisos -->
     <div id="mySidenav" class="sidenav">
       <a href="https://www.facebook.com/profile.php?id=100044227069114" id="face" style="color: white; font-size: 13px;">FACEBOOK</a>
@@ -42,28 +45,39 @@
     </div>
     <!-- ESPACIOS -->
     &nbsp;  
-    &nbsp;   
+    &nbsp;
     <!--GRID-->
+    <section class="sectionPrimera">
     <a name="home" />
-    <div class="container text-center">
-      <div class="row justify-content-md-center">
-        <div class="col col-lg-2">
-        <img src="./img/foto perfil.jpg" alt="Fotodeperfils" class="perfilfoto"> 
+    
+        <img src="./img/imagen Luis.png" alt="Fotodeperfils" class="perfilfoto"> 
         </div>
+    
+   
         <div class="col-md-auto">
           <!-- ESPACIOS -->
           &nbsp;   
-         <h3>José luis Soto Chávez</h3> 
-          <h6>yo soy diseñador web y front-end soy apacionado para desarrollar el estilo de tus paginas y me encanta ayudar a las empresas a desarrollar sitios web 
-            y a clientes individuales que quieren hacer crecer su negocio y es lo que mas me motiva ver a mis clientes satisfechos.  </h6>
-        </div>
+          <aside class="textoaside">
+         <div style="text-align: center;">
+          <h3>José luis Soto Chávez</h3>
+          </div>
+          <p style ="text-align: left;" >yo soy diseñador web y front-end soy apacionado para desarrollar el estilo de tus paginas y me encanta ayudar a las empresas a desarrollar sitios web 
+            y a clientes individuales que quieren hacer crecer su negocio y es lo que mas me motiva ver a mis clientes satisfechos.  </p>
+      
         <div class="col col-lg-2">
-          <!-- boton -->
-          <button type="button" class="btn btn-outline-danger">Contactar</button>
+          <!-- boton contactar-->
+          <a href="#contactame"> <button type="button" class="btn btn-outline-danger">Contactar</button> </a>
+        </div>
+      </aside>
+
         </div>
       </div>
+ 
+    </section>
+
       <!-- acerca de mi  -->
        <!-- ESPACIOS -->
+       <header id="acercademi">
        <div class="container text-center">
         <div class="row justify-content-md-center">
           <div class="col col-lg-2">
@@ -72,68 +86,78 @@
             <!-- ESPACIOS -->
             &nbsp; 
             <a name="acerca" />  
+           
            <h3>Acerca de mi </h3> 
-            <h6>Yo soy ingeniero en sistemas computacionales desarrollado en Frontend tengo conocimientos en HTML 5, CSS3, Javascrip, sql server.
+            <h6 class="acer">Yo soy ingeniero en sistemas computacionales desarrollado en Frontend tengo conocimientos en HTML 5, CSS3, Javascrip, sql server.
               desarolle diferentes proyectos dentro de la Univerdsidad que me ayudaron hacer mas eficiente y creativo al crear tus paginas que tanto necesitas para tu negocio.
               Participe en el bootcamp generation México y realize un proyecto integrador de un sitio web para la venta de productos personalizados.    
             
-            </h6>
-          </div>
+        
+        
+
           <div class="col col-lg-2">
             <!-- boton de descargra cv -->
             <a href="./Documenatcion/Cv Jose luis.pdf" download="cv">
 
-              <button type="button" class="btn btn-outline-danger">Descargar CV</button>
+              <button type="button" class="btn btn-outline-danger" >Descargar CV</button>
             </a>
+          </h6>
+        </div>
           </div>
         </div>
+        </div>
+      </header>
 
-  <!-- tabla o cartitas columnas experiencia -->
-  <div class="container text-center">
-    <div class="row">
-      <div class="col">
-        <!-- card -->
-        <div class="card" style="width: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
-          </div>
+  <!-- carusel experiencia -->
+  <section id="sectioncarucel">
+
+
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="..." class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
         </div>
       </div>
-      <div class="col">
-        <!-- tarjeta -->
-        <div class="card" style="width: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
-          </div>
+      <div class="carousel-item">
+        <img src="..." class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
         </div>
       </div>
-      <div class="col">
-        <!-- card -->
-        <div class="card" style="width: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
-          </div>
+      <div class="carousel-item">
+        <img src="..." class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
         </div>
       </div>
     </div>
-  </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
+
+</div>
+  </section>
 
 <!-- contactanos -->
 
-<main>
-  <SEction>
+
+  <section id="contactameC">
     <a name="contactame" />
   <!-- Contáctanos -->
   <div class="container-fluid">
@@ -212,9 +236,18 @@
       </div> <!--Termino-->
     </class>
   </div>
-</SEction>
+  </section>
 </main>
 <!-- **************************************** -->
+
+
+
+
+
+
+
+
+
 
 </div>
 <script src="https://smtpjs.com/v3/smtp.js"></script>
