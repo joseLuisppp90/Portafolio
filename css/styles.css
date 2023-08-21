@@ -1,26 +1,34 @@
+/* apartado body */
 
-/* perfil foto */
-.perfilfoto {
-  background-image:url("foto perfil.jpg");
-
-  height: 95%;
-  width: auto;
-  margin-top: 10px;
-  margin-right: 50px;
-  float: right;
-  border-radius: 10%;
-
+.contene{
+  background-color: #e3e1e1;
 }
 
+p{
+  background: #ccc;
+background: radial-gradient(  #000000, #380707,  #180101);
+font-family: system-ui;
+font-size: 1rem;
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+}
+h3{
+  background: #ccc;
+  background: radial-gradient(  #a21606, #000000);
+  font-family: system-ui;
+  font-size: 3rem;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  }
 
-/* estilo narvas */
-/* Add a black background color to the top navigation */
+
+
+/* APARTADO NARVAR */
+
 .topnav {
-  background-color: #2b0c0c;
+  background-color: #70837a;
   overflow: hidden;
 }
-
-/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   display: block;
@@ -31,9 +39,13 @@
   font-size: 17px;
   border-bottom: 3px solid transparent;
 }
-
 .topnav a:hover {
-  border-bottom: 3px solid rgb(70, 3, 3);
+  border-bottom: 3px solid rgb(255, 255, 255);
+background: radial-gradient(  #a21606, #000000);
+font-family: system-ui;
+font-size: 1rem;
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
 }
 
 .topnav a.active {
@@ -62,7 +74,7 @@
 #face {
   color: #020228; font-size: 50px;
   top: 180px;
-  background-color: #3b5998;
+  background-color: #3b5998;/* facebook */
   
 
 }
@@ -85,12 +97,6 @@
 
 /* Contacto */
 .containerContacto{
-/*  
-  width: 20%;
-  height: 10%;
-  padding: 30px;
-  margin: 40px; */
-  
   background-color: #ffffff;
   height: 10%;
   width: 30%;
@@ -100,29 +106,8 @@
 
   
 }
-.containerOpinion{
-  background-color: #000000;
-  width: 40%;
-  height: 576px;
-  display: flex;
-  padding: 30px;
-  margin: 40px;
-  border-radius: 30px;
-  flex-direction: column;  
-  text-align: center;
-}
 
 
-button{
-  background-color: #411219;
-  border-radius: 10px;
-  border-color:#a0797e ;
-  font-family: 'Montserrat', sans-serif;
-  color:#ffffff;
-  padding: 10px 50px;
-  margin: 10px;   
-  
-}
 .svg{
   display: flex;
 }
@@ -146,82 +131,100 @@ button{
 }
 
 
-.article{
+/* apartado Home */
+/* perfil foto */
+.perfilfoto {
+  background-image:url("foto perfil.jpg");
 
-height: 95%;
-width: auto;
-margin-top: 10px;
-margin-right: 50px;
-float: right;
+  height: 95%;
+  width: auto;
+  margin-top: 10px;
+  margin-right: 50px;
+  float: right;
+  border-radius: 10%;
 
 }
+.textoaside{
 
+  background-color: #e1efe3;
+  height: 700px;
+  width: 50%;
+  margin-left: 30px;
+  border-radius: 20%;
+  text-align: center;
+  padding: 5%;
+}
+
+.presentaciondemi{
+  margin-right: 50%;
+  border-radius: 3%;
+  text-align: center;
+  padding: 5%;
+  background-color: #70837a;
+  height:80%;
+  width: 50%;
+  margin-top: 5%;
+  margin-right: 50%;
+  border-radius: 3%;
+  text-align: center;
+  color: #ffffff;
+  padding: 5%;
+
+}
 .sectionPrimera{
-  background-color: #ffffff;
-  height: 850px;
+  height: 800px;
   width: 100%;
-  background-color:rgb(255, 255, 255);
+  background-color:rgb(104, 175, 241);
   border-radius: 2%;
-  
-
-}
-.contene{
-  background-color: #000000;
 }
 
 
 
-#contactameC{
-background-color: #81c3e2;
-  width: 100%;
-  height: auto;
-  border-radius: 5%;
-}
 
+
+/* apartado de acerca de mi  */
 
 #acercademi{
-  background-color: #60aff9;
+  background-color: hwb(0 100% 0%);
   padding: 15px;
   height: 845px;
   width: 100%;
   border-radius: 5%;
-
-
 }
 
+
+.acer{
+  background-color: #70837a;
+  height:80%;
+  width: 50%;
+  margin-top: 5%;
+  margin-right: 50%;
+  border-radius: 3%;
+  text-align: center;
+  color: #ffffff;
+  padding: 5%;
+  
+}
+.btn{ 
+height: 100%;
+width: 150%;
+color: #300202;
+padding: 10%;
+margin-block-end: 50%;
+}
+
+/* fin de acerca */
+
+
+
+/* apartado del carucel */
 
 #sectioncarucel{
   height: 845px;
   width: 100%;
-  background-color: #eceae0;
-  border-radius: 3%;
-}
-
-.textoaside{
-
-  background-color: #e1efe3;
-  height: 800px;
-  width: 50%;
-  margin-left: 50px;
-  border-radius: 20%;
-
-  
-
-}
-
-
-
-.acer{
   background-color: #ffffff;
-  height: 70%;
-  width: 50%;
-  margin: 5%;
-  margin-left: 300px;
   border-radius: 3%;
- 
-  
 }
-
 
 #carouselExampleCaptions{
 
@@ -232,15 +235,48 @@ width: auto;
 
 }
 
+/*apartado contactame  */
 
-@media (min-width: 1200px){
-body{
-  grid-template-areas:
-  "sect"
-  "acercad"
-  "tablasc"
-  "textoas"
-  "contacta"
-
+#contactameC{
+  background-color: #ffffff;
+    width: 100%;
+    height: 1000px;
+    border-radius: 5%;
+  }
+  
+button{
+  background-color: #929292;
+  border-radius: 10px;
+  border-color:#ffffff ;
+  font-family: 'Montserrat', sans-serif;
+  color:#ffffff;
+  padding: 1% 5%;
+  margin: 1%; 
+    
+  
 }
+
+.containerOpinion{
+
+  background-color:rgb(104, 175, 241);
+  width: 40%;
+  height: 576px;
+  display: flex;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 30px;
+  flex-direction: column;  
+  text-align: center;
+}
+
+
+.fotoacerca{
+  
+  height: 95%;
+  width: auto;
+  margin-top: 10px;
+  margin-right: 50px;
+  float: right;
+  border-radius: 10%;
+
 }
